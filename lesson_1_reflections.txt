@@ -1,0 +1,59 @@
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Ans.
+It will allow me to be able to make new versions and iterations faster. In case of failure of new version to work I
+can simply check for errors comparing with the previous versions.
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+If you were to put "git diff" on the map, which of the following existing concept(s) would you directly connect it with?
+
+    commit
+    Google Docs
+    git
+    Version Control
+				part of
+Ans.
+I would  connect "git diff" --------------> git
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions
+automatically saved, like Google Docs does?
+Ans.
+The documents are constantly updated and fear of loosing data due to power failure and closing the application prematurely is
+non existent.
+Also since the documents are in a google cloud they are backed up regularly and manual backup is not necessary.
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google
+Docs, treat each file separately?
+Ans.
+This is because each of them were made with different use cases. Google Docs for sharing rich text format and collaboration,
+whereas git was built by Linus for the purpose of sharing code and collaborating with each other at the same time.
+A program code can span multiple files and folders and interacting with each other, whereas documents do funcion as a single
+entity and are mostly separate from one another.
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+How can you use the commands git log and git diff to view the history of files?
+Ans.
+Move to the folder where the repository clone is located.
+run command $git log
+It will display the commit logs. Press q to quit viewing the log.
+One can then use $git diff command to check the changes between two commits.
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+How might using version control make you more confident to make changes that could break something?
+Ans.
+I would not have to worry about being able to go back to working copy again in case I break something already working.
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+Now that you have your workspace set up, what do you want to try using Git for?
+Ans.
+I like my current setup to avoid messing it with your bash setup for learning git. I would just like to learn the commands
+for and git and use my text editors like vim, emacs or terminal itself to deliver the information that I need.
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
