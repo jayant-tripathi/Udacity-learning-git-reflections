@@ -8,6 +8,12 @@ metadata related to the files tracked and commits and changes done to the tracke
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+Ans.
+Staging area serves the purpose of making and separating the commits in logical steps. I may also have multiple files which
+I may or may not want to add to the commit yet. This helps in making changes to the repository logically more controlled and
+refined.
+This allows only to add changes little at a time despite huge changes we might otherwise have made to the current working
+system. Thereby testing our code in modular fashion and changing/rolling back in case of any bugs.
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
