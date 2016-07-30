@@ -17,9 +17,11 @@ system. Thereby testing our code in modular fashion and changing/rolling back in
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-How can you use the staging area to make sure you have one commit per logical
-change?
-
+How can you use the staging area to make sure you have one commit per logical change?
+Ans.
+We can add files which are logically linked to the changes we are making and only committing those to the repository at the
+time of committing, despite having made other changes to the files as well.
+Thereby observing one commit per logical change.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 What are some situations when branches would be helpful in keeping your history
