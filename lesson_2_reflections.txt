@@ -26,7 +26,11 @@ Thereby observing one commit per logical change.
 -----------------------------------------------------------------------------------------------------------------------------
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+Ans.
+Testing and adding experinmental changes and features, Sorting bugs and other logical changes which I would not like to add
+or test with a working copy of main or master branch.
+It would be great help if I can make iterative changes to the tests and other changes that I want and be able to merge it
+back in to main branch once I am confident of the changes that I have made.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 How do the diagrams help you visualize the branch structure?
