@@ -34,16 +34,36 @@ back in to main branch once I am confident of the changes that I have made.
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 How do the diagrams help you visualize the branch structure?
+Ans.
+Diagrams help see the structure and flow of branches and see which changes are inaccessible and what changes are necessary
+to be able to merge and connect the broken off parts.
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Ans.
+The branch on we are currently becomes the main branch and all changes between the two are merged.
+We use diagrams for merging as it helps visualize common branch between two branches.
+Also it shows if the changes are accessible by other branches.
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
-What are the pros and cons of Gitâ automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Ans.
+Pros of automatic merging.
+Saves lot of manual typing and editing.
+Most of the changes are automatically handled except when conflicts arise.
+
+Cons of automatic merging.
+Some logical changes might not create conflicts and would be added but would actually break the system without user's
+knowledge.
+
+Pros of merging manually.
+Possibility of introduction of logical error reduces.
+
+Cons of merging manually
+Lot of painfull manual typing and editing.
 
 -----------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
