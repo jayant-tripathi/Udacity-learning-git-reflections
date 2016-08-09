@@ -1,23 +1,71 @@
-When would you want to use a remote repository rather than keeping all your work
-local?
+When would you want to use a remote repository rather than keeping all your work local?
+Ans.
+when I would want to share and collaborate with diverse group of people I would be
+prefer to use remote repository rather than keeping all work on local.
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
+Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+Ans.
+When I am working on my separate branch which is unaffected by the main branch any change
+in main branch may affect my code. This allows me to control and build my branch without
+being affected by the changes in the main branch until my branch is ready.
 
-Why might you want to always pull changes manually rather than having Git
-automatically stay up-to-date with your remote repository?
-
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
+Ans.
+Forks are clones of the original copy on GitHub on GitHub itself.
+Clones are local copies of the GitHub repositories.
+Branches are threads of development or changes in the repository.
 
+I would use forks when I want to make changes to the publicly available code but I am not
+a contributor to the project.
+I would fork the project and then I would be able to make and push changes to my copy of
+the code.
+
+I would use cloning when I have access to repository and dont intend to make the changes
+public as yet. I would make a copy of the code on local system and keep making changes
+until satisfied.
+
+Branching would see a lot of use on local as well and on the main public repository as I
+would wish make many changes and additions without affecting the working condition of the
+original.
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
+Ans.
+Benefit of having last known state of the remote locally is when any other changes which
+are committed to the remote are done it is possible to know if one can fast forward merge
+and know how changes have occured since last visit.
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
+Ans.
+I would be very diffcult to collaborate without Git and GitHub.
+Nothing comes to mind that would be easier other than screwing up.
+It would be lot harder to collaborate as changes to be made would be difficult to track,
+revert and merge.
+Spirit of experimenting would be suppressed as making changes might be costly mistake
+instead of just different branch or revert away.
+Life as a programmer in general would be more difficult.
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
+Ans.
+Always whenever I wish to make changes to the code I would prefer to use separate branch
+instead of master. If this practice is also followed by others while collaborating it
+would always help as no new feature would catch other collaborators unaware as they would
+always see the changes new features would likely make and suggest corrections as well as
+tailor their own code according to the expected changes while being updated of changes.
+-----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
